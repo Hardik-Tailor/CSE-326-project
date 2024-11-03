@@ -1,0 +1,692 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FFFFFF;
+    scroll-behavior: smooth;
+}
+
+#heade{
+    position: fixed ;
+    z-index: 1;
+    top: 0;
+    overflow: hidden;
+    left: 0px;
+    width: 100%;
+    height: 110px;
+    background-color: white;
+}
+
+#logo{
+    position: absolute;
+    top: -15px;
+    left: 5%;
+    scale: 0.5;
+}
+
+#name{
+    position: absolute;
+    top: 30px;
+    left: 14%;
+    scale: 2.5;
+    font-family:Montserrat;
+}
+
+#headflex{
+    position: absolute;
+    left: 750px;
+    top: 48px;
+    width: 350px;
+    font-family:Montserrat;
+    display: flex;
+    justify-content:space-between;
+    scale: 1.3;
+}
+
+.headitem{
+    display: block;
+}
+
+.headitem:hover {
+    color: rgba(25, 36, 77, 1);
+    transition: 0.7s;
+}
+
+#headbut{
+    position: absolute;
+    top: 27px;
+    right: 100px;
+    height: 60px;
+    width: 160px;
+    border-radius: 7px;
+    background-color: rgba(25, 36, 77, 0.95);
+    color: white;
+    font-family:Montserrat;
+    font-size: 17px;
+} 
+
+#headbut:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: rgba(25, 36, 77, 0.95);
+    transition: 0.7s;
+    border: 2px solid rgba(25, 36, 77, 0.95);
+    background-color: white;
+}
+
+#image{
+    position: absolute ;
+    top: 100px;
+    left: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    height: 1065px;
+}
+
+#imgp{
+    color: white;
+    position: absolute;
+    top: 400px;
+    scale: 4;
+    left: 650px;
+    font-family:Montserrat;
+}
+
+#imgt{
+    height: 100px;
+    width: 900px;
+    position: absolute;
+    top: 500px;
+    left:310px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family:Montserrat;
+    scale: 0.9;
+}
+
+#search{
+    height: 60px;
+    width: 240px;
+    font-size: 25px;
+    font-family:Montserrat;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 630px;
+    left: 450px;
+    border: none;
+}
+
+#lm{
+    height: 60px;
+    width: 240px;
+    font-size: 25px;
+    font-family:Montserrat;
+    background: none;
+    border: 3px solid white;
+    border-radius: 5px;
+    position: absolute;
+    top: 630px;
+    left: 800px;
+    color: white;
+}
+
+#lm:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: #212121;
+    background-color: white;
+    transition: 0.7s;
+  }
+
+  #search:hover{
+    box-shadow: 0 0 0 12px transparent;
+    color: white;
+    background: none;
+    transition: 0.9s;
+    border: 3px solid white;
+  }
+
+#CompareFares{
+    position: absolute;
+    top: 1270px;
+    left: 160px;
+    height: 110px;
+    width: 600px;
+    font-size: 40px;
+    font-family:Montserrat;
+}
+
+#tdi2{
+    position: absolute;
+    top: 1280px;
+    right: 150px;
+    height: 100px;
+    width: 600px;
+    font-family:Montserrat;
+}
+
+#boxes{
+    position: absolute;
+    top:1450px ;
+    left: 0px;
+    width: 100%;
+    height: 700px;
+}
+
+.box{
+    height: 500px;
+    width: 380px;
+    border: 1px solid rgba(0, 0, 0,1);
+    border-radius: 8px;
+    background-color: #cdd9ff70;
+}
+
+#b1{
+    position: absolute;
+    top: 0px;
+    left: 160px;
+}
+
+#b2{
+    position: absolute;
+    top: 0px;
+    left: 570px;
+}
+
+#b3{
+    position: absolute;
+    top: 0px;
+    right: 160px;
+}
+
+.fare{
+    scale: 1.5;
+    font-family:Montserrat;
+    position: absolute;
+    top: 270px;
+    left: 60px;
+}
+
+.disc{
+    font-family:Montserrat;
+    position: absolute;
+    top: 310px;
+    left: 15px;
+    font-size: medium;
+}
+
+.bbut{
+    position: absolute;
+    bottom: 20px;
+    width: 130px;
+    left: 15px;
+    height: 45px;
+    font-family:Montserrat;
+    font-size: 17px;
+    background: none;
+    border: 1px solid rgba(0, 0, 255, 0.663);
+    border-radius: 5px;
+    color: rgba(0, 0, 255, 0.663);
+}
+
+.bbut:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: white;
+    background-color:rgba(0, 0, 255, 0.663);
+    transition: 0.7s;
+  }
+
+#black{
+    position: absolute;
+    top: 2050px;
+    left: 0px;
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+
+
+#bt{
+    position: absolute;
+    top: 50px;
+    left: 160px;
+    height: 110px;
+    width: 600px;
+    font-size: 40px;
+    font-family:Montserrat; 
+}
+
+#bdis{
+    position: absolute;
+    top: 80px;
+    right: 150px;
+    height: 100px;
+    width: 600px;
+    font-family:Montserrat;
+    color: white;
+}
+
+#bboxes{
+    position: absolute;
+    top:170px ;
+    left: 0px;
+    width: 100%;
+    height: 700px;
+}
+
+.bbox{
+    height: 500px;
+    width: 380px;
+    border: 1px solid rgba(0, 0, 0,1);
+    border-radius: 8px;
+    background-color: #262626;
+}
+
+#bb1{
+    position: absolute;
+    top: 60px;
+    left: 160px;
+}
+
+#bb2{
+    position: absolute;
+    top: 60px;
+    left: 570px;
+}
+
+#bb3{
+    position: absolute;
+    top: 60px;
+    right: 160px;
+}
+
+.bfare{
+    scale: 1.5;
+    font-family:Montserrat;
+    position: absolute;
+    top: 260px;
+    left: 65px;
+    color: white;
+}
+
+.extra{
+    scale: 1.5;
+    font-family:Montserrat;
+    position: absolute;
+    top: 290px;
+    left: 30px;
+    color: white;
+}
+
+.bdisc{
+    font-family:Montserrat;
+    position: absolute;
+    top: 323px;
+    left: 15px;
+    font-size: 15px;
+    color: white;
+}
+
+.bbbut{
+    position: absolute;
+    bottom: 20px;
+    width: 130px;
+    left: 15px;
+    height: 45px;
+    font-family:Montserrat;
+    font-size: 17px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.bbbut:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: black;
+    background-color:white;
+    transition: 0.7s;
+  }
+
+#travel{
+    position: absolute;
+    top: 900px;
+    left: 160px;
+    height: 110px;
+    width: 600px;
+    font-size: 40px;
+    font-family:Montserrat;
+}
+#tra{
+    position: absolute;
+    top: 990px;
+    left: 160px;
+    height: 110px;
+    width: max-content;
+    font-family:Montserrat;
+    font-size: 18px;
+}
+
+#Blog{
+    position: absolute;
+    border: 1px solid black;
+    top: 1100px;
+}
+
+.boxp{
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-right: 40px;
+    width: 600px;
+    height: 300px;
+    background-color: #ededed;
+}
+
+#pb1{
+    position: absolute;
+    left: 160px;
+    top: 0px;
+}
+
+#pb2{
+    position: absolute;
+    left: 780px;
+}
+
+.small{
+    position: absolute;
+    top: 15px;
+    left: 325px;
+    font-family:Montserrat;
+}
+
+.bdis{
+    position: absolute;
+    left: 325px;
+    top: 40px;
+    width: 260px;
+    font-family:Montserrat;
+    font-size: 23px;
+}
+
+.sdis{
+    position: absolute;
+    left: 325px;
+    top: 110px;
+    width: 240px;
+    font-family:Montserrat;
+    font-size: 15px;
+}
+
+.rm{
+    position: absolute;
+    bottom: 20px;
+    width: 130px;
+    left: 325px;
+    height: 35px;
+    font-family:Montserrat;
+    font-size: 17px;
+    background: none;
+    border: 1px solid #FCA311;
+    border-radius: 5px;
+    color: #FCA311;
+}
+
+.rm:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: black;
+    background-color:#FCA311;
+    transition: 0.7s;
+  }
+
+#pb3{
+    position: absolute;
+    top: 330px;
+    left: 160px;
+}
+
+#pb4{
+
+    position: absolute;
+    top: 330px;
+    left: 780px;
+}
+
+#faq{
+    position: absolute;
+    top: 1850px;
+    font-family:Montserrat;
+}
+
+#FAQ{
+    width: max-content;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    font-size: 45px;
+}
+
+#fdiv{
+    position: absolute;
+    top: 100px;
+    left: 325px;
+    width: 900px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.f{
+    position: absolute;
+    left: 325px;
+    width: 880px;
+    padding: 10px;
+}
+
+#f1{
+    position: absolute;
+    top: 220px;
+    font-size: 23px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#f2{
+    position: absolute;
+    top: 280px;
+    font-size: 22px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    padding-top:0px ;
+}
+
+#f3{
+    position: absolute;
+    top: 325px;
+    font-size: 23px;
+    border-bottom: 1px solid black;
+    padding-top: 0px;
+}
+
+#nmh{
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    width: max-content;
+    font-size: 40px;
+}
+
+.b{
+    position: absolute;
+    top: 600px;
+    left: 680px;
+    height: 50px;
+    width: 200px;
+    font-size: 22px;
+    font-family:Montserrat;
+    border: 1px solid rgba(25, 36, 77, 0.95);
+    border-radius: 5px;
+    color: rgba(25, 36, 77, 0.95);
+    background-color: white ;
+}
+
+.b:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: white;
+    transition: 0.7s;
+    border: 2px solid rgba(25, 36, 77, 0.95);
+    background-color: rgba(25, 36, 77, 0.95);
+}
+
+#footer{
+    position: absolute;
+    top: 2700px;
+    padding-top: 25px;
+    width: 1200px;
+    left: 160px;
+    border-top:1px solid black;
+    padding-bottom: 25px;
+    height: 90px;
+    font-family: montserrat;
+}
+
+#main{
+    position: absolute;
+    top: 25px;
+    left: 80px;
+}
+
+#tos{
+    position: absolute;
+    top: 25px;
+    left: 900px;
+}
+
+#pp{
+    position: absolute;
+    top: 25px;
+    left: 1050px;
+}
+
+
+/* learn.HTML */
+
+#learnbox{
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    height: 500px;
+    background-color: #ededed;
+    width: 100%;
+}
+
+#lbig{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    width: 500px;
+    font-size: 35px;
+    scale: 1.15;
+    text-align: center;
+    font-family: montserrat;
+}
+
+#lsmall{
+    position: absolute;
+    top: 190px;
+    left: 455px;
+    width: 600px;
+    text-align: center;
+    font-family: montserrat;
+    scale: 1.15;
+}
+
+.lfb{
+  height: 150px;
+  width: 350px;
+  position: absolute;
+    
+}
+
+#lflex{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    font-family: Montserrat;
+}
+
+#lf1{
+    position: absolute;
+    top: 00px;
+    left: -350px;
+}
+
+#lf2{
+    position: absolute;
+    top: 0pxx;
+    left: 100px;
+}
+
+#lf3{
+    position: absolute;
+    left: 550px;
+}
+
+.lfbig{
+    font-size: 28px;
+    text-align: center;
+}
+
+.lfsmall{
+    position: absolute;
+    top: 70px;
+    width: 400px;
+    text-align: center;
+}
+
+.TTL{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    font-family: montserrat;
+}
+
+.TTB{
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    font-size: 45px;
+    width: 700px;
+    font-family: montserrat;
+}
+
+.TTDIS{
+    position: absolute;
+    top: 450px;
+    left: 400px;
+    font-family: montserrat;
+    width: 750px;
+
+}
+
+#contactForm{
+    position: absolute;
+    top: 400px;
+    color: white;
+    left: 200px;
+    font-family: montserrat;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
